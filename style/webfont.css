@@ -1,0 +1,42 @@
+/*
+██╗    ██╗███████╗██████╗ ███████╗ ██████╗ ███╗   ██╗████████╗
+██║    ██║██╔════╝██╔══██╗██╔════╝██╔═══██╗████╗  ██║╚══██╔══╝
+██║ █╗ ██║█████╗  ██████╔╝█████╗  ██║   ██║██╔██╗ ██║   ██║   
+██║███╗██║██╔══╝  ██╔══██╗██╔══╝  ██║   ██║██║╚██╗██║   ██║   
+╚███╔███╔╝███████╗██████╔╝██║     ╚██████╔╝██║ ╚████║   ██║   
+ ╚══╝╚══╝ ╚══════╝╚═════╝ ╚═╝      ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   
+                                                              */
+
+@font-face {
+    font-family: 'Object-Sans';
+    src: url('font/PPFraktionSans-Light.eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Object-Sans';
+    src: url('font/PPFraktionSans-Light.woff') format('woff');
+    src: url('font/PPFraktionSans-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eiko';
+    src: url('font/PPFraktionMono-Bold.eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Eiko';
+    src: url('font/PPFraktionMono-Bold.woff') format('woff');
+    src: url('font/PPFraktionMono-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
