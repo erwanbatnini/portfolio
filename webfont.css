@@ -1,0 +1,57 @@
+/*
+██╗    ██╗███████╗██████╗ ███████╗ ██████╗ ███╗   ██╗████████╗
+██║    ██║██╔════╝██╔══██╗██╔════╝██╔═══██╗████╗  ██║╚══██╔══╝
+██║ █╗ ██║█████╗  ██████╔╝█████╗  ██║   ██║██╔██╗ ██║   ██║   
+██║███╗██║██╔══╝  ██╔══██╗██╔══╝  ██║   ██║██║╚██╗██║   ██║   
+╚███╔███╔╝███████╗██████╔╝██║     ╚██████╔╝██║ ╚████║   ██║   
+ ╚══╝╚══╝ ╚══════╝╚═════╝ ╚═╝      ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   
+                                                              */
+
+@font-face {
+    font-family: 'Object-Sans';
+    src: url('font/PPFraktionSans-Bold.eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Object-Sans';
+    src: url('font/PPFraktionSans-Bold.woff') format('woff');
+    src: url('font/PPFraktionSans-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'avara';
+    src: url('font/Avara-Black.eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'avara';
+    src: url('font/Avara-Black.woff') format('woff');
+    src: url('font/Avara-Black.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avara-BoldItalic';
+    src: url('font/Avara-BoldItalic.eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Avara-BoldItalic';
+    src: url('font/Avara-BoldItalic.woff') format('woff');
+    src: url('font/Avara-BoldItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
