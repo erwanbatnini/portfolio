@@ -1,3 +1,7 @@
+/* ── ANNÉE DU COPYRIGHT ── */
+var yearEl = document.getElementById('year');
+if (yearEl) yearEl.textContent = new Date().getFullYear();
+
 /* ── ACCORDION ── */
 document.querySelectorAll('.acc-btn').forEach(function (btn) {
   btn.addEventListener('click', function () {
