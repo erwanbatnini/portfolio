@@ -31,14 +31,34 @@ document.querySelectorAll('[data-car]').forEach(function (car) {
   var drag         = false;
   var dragStartX   = 0;
   var dragStartIdx = 0;
+  var inView       = false;
+  var slides       = Array.prototype.slice.call(track.children);
+
+  // Vidéos : lecture seulement si le projet est à l'écran et la slide affichée
+  function syncVideos() {
+    slides.forEach(function (s, i) {
+      if (s.tagName !== 'VIDEO') return;
+      if (i === idx && inView) {
+        var p = s.play();
+        if (p && p.catch) p.catch(function () {});
+      } else {
+        s.pause();
+      }
+    });
+  }
 
   function go(n) {
     idx = (n % total + total) % total;
     track.style.transform = 'translateX(-' + (idx * 100) + '%)';
     if (counter) counter.textContent = (idx + 1) + ' / ' + total;
     if (bar)     bar.style.width     = ((idx + 1) / total * 100) + '%';
+    syncVideos();
   }
   go(0);
+
+  new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) { inView = e.isIntersecting; syncVideos(); });
+  }, { root: window.innerWidth <= 680 ? null : document.getElementById('main'), threshold: 0.4 }).observe(car);
 
   // Masque les contrôles si un seul visuel
   if (total === 1) {
