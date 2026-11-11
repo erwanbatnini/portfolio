@@ -88,6 +88,10 @@ body {
   max-width: 250px;
 }
 
+/* ── À PROPOS (sous le nom) ── */
+.sb-about { max-width: 260px; }
+.sb-about p { padding: 0; }
+
 /* ── ACCORDION ── */
 .sidebar-bottom { display: flex; flex-direction: column; }
 
